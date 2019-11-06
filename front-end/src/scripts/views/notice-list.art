@@ -1,0 +1,42 @@
+
+    <thead>
+      <tr>
+        <th>
+          User
+        </th>
+        <th>
+          First name
+        </th>
+        <th>
+          Progress
+        </th>
+        <th>
+          Amount
+        </th>
+        <th>
+          Deadline
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+        {{each result.data.list}}
+      <tr>
+        <td class="py-1">
+          <img src="/assets/images/faces-clipart/pic-1.png" alt="image"/>
+        </td>
+        <td class="notices-list">{{$value.name}}</td>
+        <td>
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </td>
+        <td>
+              {{$value.num}}
+        </td>
+        <td>
+              {{$value.date}}
+        </td>
+        <td><span class="delete">删除</span></td>
+      </tr>
+     {{/each}}
+    </tbody>
