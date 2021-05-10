@@ -28,7 +28,7 @@
     "better-scroll": "^1.15.2",
     "cookie-session": "^1.3.3",
     "css-loader": "^3.2.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "sass-loader": "^8.0.0",
     "sme-router": "^0.12.8",
     "string-loader": "0.0.1",
